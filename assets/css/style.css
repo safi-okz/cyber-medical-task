@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Topbar Start */
+.topbar {
+    background: #124d91;
+    height: 2.3rem;
+}
+
+.topbar a {
+    font-size: .8rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.topbar p {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.login {
+    font-size: 1.15rem !important;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.topbar_social_icon a {
+    font-size: 1rem !important;
+}
+
+.facebook:hover {
+    background-color: rgb(40,116,252);
+    transition: all .5s ease-in-out;
+}
+
+.twitter:hover {
+    background-color: #0dcaf0 ;
+    transition: all .5s ease-in-out;
+}
+
+.linkedin:hover {
+    background-color: #0d6efd;
+    transition: all .5s ease-in-out;
+}
+/* Topbar end */
+
+/* Navigation Start */
+.blue_logo {
+    width: 15rem;
+}
+/* Navigation End */
+
+/* Hero Section Start */
+.carousel_back {
+        background-image: linear-gradient(135deg,rgba(0,0,0, 0.29) 0%,rgba(0,0,0, 0.4) 100%),
+                            url('../img/caro-2.jpg');
+        height: 30rem !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+
+.carousel_back_2 {
+    background-image: linear-gradient(135deg,rgba(0,0,0, 0.29) 0%,rgba(0,0,0, 0.4) 100%),
+    url('../img/caro-1.jpg');
+    height: 30rem !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.position-absolute {
+    top: 11rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 6% !important;
+}
+
+/* Hero Section End */
+
+/* Result text Start */
+.result_text_color {
+    color: #35415b;
+}
+
+.result_text_heading {
+        color: #35415b;
+        /* text-transform: uppercase; */
+        font-size: 2.3rem !important;
+        font-weight: 300 !important;
+}
+
+.result_bold_text {
+    font-size: 1.2rem;
+}
+/* Result text end */
+
+/* Services Start */
+.services {
+    margin-top: 8rem;
+}
+
+.service_img {
+        width: 22.31rem !important;
+        height: 18.31rem !important;
+}
+
+.service_tag {
+        position: absolute;
+        background-image: linear-gradient(135deg,rgba(0,0,0, 0.29) 0%,rgba(0,0,0, 0.4) 100%);
+        color: #fff;
+        padding: .3rem .5rem;
+        font-size: 1.3rem;
+}
+/* Services End */
+
+/* coming Start */
+.coming_img {
+        width: 24.31rem !important;
+        height: 20.31rem !important;
+}
+/* coming End */
+
+/* Details Start */
+.detail_img {
+    height: 35rem;
+    border-radius: 1rem;
+
+}
+
+.detail_text {
+    color: #35415b;
+    font-size: 1.15rem;
+}
+/* Details End */
+
+/* Contact us Start */
+.contact {
+    background-color: #f5f5f5;
+}
+
+.blue_card {
+    background-color: #124d91;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.register_btn {
+    font-size: 14px!important;
+    background: #22B891!important;
+    border-radius: 4em;
+    padding: 0 1.6em;
+    font-weight: 500 !important;
+    height: 40px;
+    transition: all .3s ease-in;
+}
+
+.register_btn:hover{
+        border: 2px solid #fff;
+        color: #fff;
+}
+
+.contact_text {
+    color: #8d9096;
+    font-size: 1.15rem;
+}
+
+.form-control {
+    border: 1px solid #124d91;
+    font-size: 1.2rem;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+    border-color: #646cfd!important;
+    box-shadow: 0px 0px 0px 2px #646cfd inset;
+}
+
+.send_btn {
+    background-color: #124d91;
+    color: #fff;
+    border-radius: 1.5rem;
+    padding: .5rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 400 !important;
+    transition: all .3s ease-in;
+}
+
+.send_btn:hover {
+    box-shadow: 0 0em 0em rgba(0,0,0,0.2);
+    background: transparent;
+    border: 2px solid #646cfd;
+    color: #8d9096;
+}
+/* Contact us End */
+
+/* Footer Start */
+footer {
+    background-color: #124d91;
+
+}
+
+.footer_text {
+    font-size: 1.15rem;
+}
+
+.footer_link {
+    transition: all .3s ease-in;
+}
+
+.footer_link:hover {
+    color: #646cfd !important;
+}
+/* Footer End */
